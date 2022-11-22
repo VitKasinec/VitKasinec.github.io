@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Loterie</title>
+    <link rel="icon" href="coin.png">
+</head>
+<body>
+    <header>
+        Loterie o
+        <br>
+        1 000 000 000 000 Kč!
+    </header>
+
+    <article>
+        <form action="./vysledek.php" method="post">
+            <h3>Zadejte svůj výherní los:</h3>
+            <br>
+            Vyberte si 1. číslo <input type="number" id="prvni" name="prvni" min="0" max="5">
+            <br><br>
+            Vyberte si 2. číslo <input type="number" id="druhe" name="druhe" min="0" max="5">
+            <br><br>
+            Vyberte si 3. číslo <input type="number" id="treti" name="treti" min="0" max="5">
+            <br><br>
+            Vyberte si 4. číslo <input type="number" id="ctvrte" name="ctvrte" min="0" max="5">
+            <br><br>
+            Vyberte si 5. číslo <input type="number" id="pate" name="pate" min="0" max="5">
+            <br><br>
+            <input type="submit" value="Odeslat" id="submit" name="submit">
+        </form>
+    </article>
+</body>
+</html>
